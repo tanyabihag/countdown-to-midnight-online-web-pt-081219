@@ -7,3 +7,11 @@ def countdown
     number -= 1 
     
 end
+
+def countdown_with_sleep
+  number = 10
+   while number < 10
+    puts "#{number} SECONDS"
+    number -= 1 
+    
+end
